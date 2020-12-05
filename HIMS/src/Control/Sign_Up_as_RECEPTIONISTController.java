@@ -36,17 +36,7 @@ public class Sign_Up_as_RECEPTIONISTController implements Initializable {
         
        }
     
-    // Cancel Button. it's go to sign up as menu  
-    public void Signupbtn(ActionEvent event) throws IOException{
-        Parent signUpAsParent = FXMLLoader.load(getClass().getResource("/View/DashboardUI.fxml"));
-        Scene signUpAsviewScene = new Scene(signUpAsParent);
-        
-        //This Line gets the Stage Information
-        Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
-        window.setScene(signUpAsviewScene);
-        window.show();
-        
-       }
+    
     
     
     
