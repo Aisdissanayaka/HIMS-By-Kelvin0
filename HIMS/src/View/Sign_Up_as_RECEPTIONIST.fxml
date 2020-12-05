@@ -85,7 +85,7 @@
             <JFXDatePicker defaultColor="#2c6c8c" layoutX="541.0" layoutY="169.0" prefHeight="25.0" prefWidth="126.0" promptText="Date Of Joining" />
          </children>
       </AnchorPane>
-      <Button layoutX="442.0" layoutY="528.0" mnemonicParsing="false" onAction="#Signupbtn" style="-fx-background-color: #960db7; -fx-background-radius: 25;" text="Signup" textFill="#f8f8f8">
+      <Button layoutX="442.0" layoutY="528.0" mnemonicParsing="false" style="-fx-background-color: #960db7; -fx-background-radius: 25;" text="Signup" textFill="#f8f8f8">
          <font>
             <Font size="18.0" />
          </font>
