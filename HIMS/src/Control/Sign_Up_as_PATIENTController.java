@@ -36,6 +36,7 @@ public class Sign_Up_as_PATIENTController implements Initializable {
         Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
         window.setScene(signUpAsviewScene);
         window.show();
+        window.centerOnScreen();
         
        }
     

@@ -42,6 +42,13 @@
     
  }
  
+ .Side-Button-select {
+    
+    -fx-background-color: #071739;
+
+    
+ }
+ 
  .Special-buttons {
     
     -fx-background-color: #1B2E4C;
