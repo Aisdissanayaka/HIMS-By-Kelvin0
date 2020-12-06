@@ -69,6 +69,7 @@ public class UserLoginController implements Initializable {
         Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
         window.setScene(signUpAsviewScene);
         window.show();
+        window.centerOnScreen();
         
        }
   

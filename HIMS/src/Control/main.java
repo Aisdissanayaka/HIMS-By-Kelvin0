@@ -28,6 +28,8 @@ public class main extends Application {
         stage.setScene(scene);
         stage.initStyle(StageStyle.UNDECORATED);
         stage.show();
+        stage.centerOnScreen();
+        
     }
        
         

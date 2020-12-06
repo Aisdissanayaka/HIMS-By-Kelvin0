@@ -23,7 +23,7 @@ import javafx.stage.Stage;
  *
  * @author ASUS
  */
-public class DashboardUIController implements Initializable {
+public class RecDashboardWelcome implements Initializable {
     
     @FXML
     public void Signoutbtn(ActionEvent event) throws IOException{
@@ -34,19 +34,37 @@ public class DashboardUIController implements Initializable {
         Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
         window.setScene(signUpAsviewScene);
         window.show();
+        window.centerOnScreen();
         
        }
     
+      @FXML
     public void Profilebtn(ActionEvent event) throws IOException{
-        Parent signUpAsParent = FXMLLoader.load(getClass().getResource("/View/ReceptionistProfileWindow.fxml"));
+        Parent signUpAsParent = FXMLLoader.load(getClass().getResource("/View/Dashboards/Receptionist/ReceptionistProfileWindow.fxml"));
         Scene signUpAsviewScene = new Scene(signUpAsParent);
         
         //This Line gets the Stage Information
         Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
         window.setScene(signUpAsviewScene);
         window.show();
+        window.centerOnScreen();
         
        }
+    
+    @FXML
+    public void AppointmentBtn(ActionEvent event) throws IOException{
+        Parent signUpAsParent = FXMLLoader.load(getClass().getResource("/View/Dashboards/Receptionist/RecAppointmentWindow.fxml"));
+        Scene signUpAsviewScene = new Scene(signUpAsParent);
+        
+        //This Line gets the Stage Information
+        Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
+        window.setScene(signUpAsviewScene);
+        window.show();
+        window.centerOnScreen();
+        
+       }
+    
+  
     /**
      * Initializes the controller class.
      */
