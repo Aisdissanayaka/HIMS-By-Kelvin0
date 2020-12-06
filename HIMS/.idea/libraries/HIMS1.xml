@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="HIMS1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dist/HIMS.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
