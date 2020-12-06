@@ -49,6 +49,7 @@ public class UserLoginController implements Initializable {
     @FXML
     private Button loginBtn;
     
+   
     
     
      @FXML
@@ -73,6 +74,7 @@ public class UserLoginController implements Initializable {
         
        }
     
+<<<<<<< HEAD
     @FXML 
     public void forgotpw(ActionEvent event) throws IOException{
         Parent signUpAsParent = FXMLLoader.load(getClass().getResource("/View/Dashboards/RecDashboardWelcome.fxml"));
@@ -88,6 +90,13 @@ public class UserLoginController implements Initializable {
        }
     
   
+=======
+    
+    
+    
+    
+    
+>>>>>>> eddd26f060936c112465de8b10f51f6303b1de30
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
